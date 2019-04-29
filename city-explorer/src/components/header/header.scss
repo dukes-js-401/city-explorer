@@ -1,0 +1,20 @@
+@import '../../design/variables.scss';
+
+header {
+  text-align: center;
+  font-family: $Acme;
+  
+  
+  h1 {
+    display: block;
+    margin: .67em;
+    font-weight: bold;
+    font-size: 5vw;
+    color: #4484CE;
+  }
+
+  p {
+    font-size: 1.4vw;
+    margin: 1em 0;
+  }
+}

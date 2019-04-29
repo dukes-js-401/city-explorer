@@ -1,0 +1,26 @@
+@import '../../design/variables.scss';
+
+form {
+  display: block;
+  height: 1.4vw;
+  margin: .67em 0;
+  text-align: center;
+  font-size: 1.4vw;
+
+  label {
+    line-height: 1.4vw;
+    font-family: $Acme;
+  }
+
+  input {
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px solid #4484CE;
+  }
+
+  button {
+    padding: 5px 15px;
+    border: 1px solid #4484CE;
+    background-color: #F19F4D;
+  }
+}
